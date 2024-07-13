@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Nav Starts -->
+
+    <nav class="navbar">
+      <div class="brand-title">The Blue Empire</div>
+      <a
+        href="javascript:void(0);"
+        class="toggle-button"
+        onclick="toggleMenu()"
+      >
+        <i class="bi bi-list"></i>
+      </a>
+      <div class="navbar-links" id="navbar-links">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#dishes">Dishes</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Nav Ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h1>Chaumin</h1>
+              <p>
+                Chaumin is a flavorful stir-fried noodle dish packed with fresh
+                vegetables, tender meat, and savory sauces, making it a
+                delightful, aromatic meal.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./images/chaumin.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h1>Pizza</h1>
+              <p>
+                Pizza is a beloved Italian dish featuring a crispy crust, tangy
+                tomato sauce, gooey melted cheese, and a variety of savory
+                toppings to suit every taste.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./images/chickenlegpiece.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h1>Chicken</h1>
+              <p>
+                Chilli Chicken is a spicy Indo-Chinese favorite, combining
+                crispy fried chicken with a zesty, tangy sauce, and colorful
+                peppers for an irresistible bite.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="./images/chickenmasala.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- dishes section -->
+    <section id="dishes" class="dishes">
+      <h1 class="dishh1">OUR FAMOUS DISHES</h1>
+      <div class="card-row">
+        <div class="card">
+          <img src="./images/hamburger.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Ham Burger</h2>
+            <p class="card-description">
+              Classic hamburger with a juicy ham patty, fresh lettuce, tomatoes,
+              and a savory sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/chickenlegpiece.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Chicken</h2>
+            <p class="card-description">
+              Juicy, marinated chicken leg pieces, grilled to perfection and
+              bursting with flavor.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/momos.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Momos</h2>
+            <p class="card-description">
+              Steamed dumplings filled with spiced vegetables or meat, served
+              with a tangy dipping sauce.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/sahipaneer.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Sahi Paneer</h2>
+            <p class="card-description">
+              Rich and creamy paneer dish cooked in a delectable, mildly spiced
+              gravy, perfect with naan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- dishes section ends -->
+
+    <!-- Menu section starts -->
+    <section id="menu" class="menu">
+      <h1 class="dishhffm1">Popular FastFood Menu</h1>
+
+      <div class="card-row">
+        <div class="card">
+          <img src="./images/hamburger.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Ham Burger</h2>
+            <p class="card-description">
+              A classic sandwich made with a beef patty, often topped with
+              lettuce, tomato, and cheese.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹80</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/chaumin.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Chaumin</h2>
+            <p class="card-description">
+              A flavorful stir-fried noodle dish originating from Chinese
+              cuisine.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹150</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/momos.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Momos</h2>
+            <p class="card-description">
+              Tibetan-style dumplings filled with meat or vegetables, typically
+              served with a spicy dipping sauce.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹180</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/Pizza.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Pizza</h2>
+            <p class="card-description">
+              A savory dish consisting of a round, flat base of dough topped
+              with tomato sauce, cheese, and various toppings.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹219</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/sandwich.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Sandwich</h2>
+            <p class="card-description">
+              A versatile meal made with two slices of bread enclosing various
+              fillings like meat, cheese, and vegetables.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹39</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/hotdog.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Hot Dog</h2>
+            <p class="card-description">
+              A sausage served in a sliced bun, often garnished with mustard,
+              ketchup, onions, or relish.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹59</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/pancake.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">PanCake</h2>
+            <p class="card-description">
+              Thin, flat cakes made from batter and cooked on a hot surface,
+              often served with syrup or fruit.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹29</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/donuts.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Donuts</h2>
+            <p class="card-description">
+              A sweet, ring-shaped fried pastry often coated with sugar or
+              icing.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹25</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/frenchfries.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">French Fries</h2>
+            <p class="card-description">
+              Deep-fried strips of potato, crispy on the outside and soft on the
+              inside, typically served as a side dish.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹120</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/cheese_burger.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Cheese Burger</h2>
+            <p class="card-description">
+              A hamburger topped with melted cheese, served in a bun with
+              various condiments and vegetables.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹65</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/chocolatecake.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Chocolate Cake</h2>
+            <p class="card-description">
+              A rich and decadent dessert cake made with chocolate as a primary
+              ingredient.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹450</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/popcorn.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Pop Corn</h2>
+            <p class="card-description">
+              Popped kernels of corn, typically seasoned with salt or butter and
+              enjoyed as a snack.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹70</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="dishhvm1">Popular Veg Menu</h1>
+
+      <div class="card-row">
+        <div class="card">
+          <img src="./images/oatmeal.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Oatmeal With Fruit</h2>
+            <p class="card-description">
+              Creamy oatmeal topped with fresh, seasonal fruits for a healthy
+              and delicious start to your day.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹80</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/vegstirfry.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">vegetables Stir-fry</h2>
+            <p class="card-description">
+              A colorful mix of fresh vegetables stir-fried to perfection with
+              savory sauces and spices.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹100</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/alooparantha.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Aloo Parantha</h2>
+            <p class="card-description">
+              Flaky whole wheat flatbread stuffed with spiced mashed potatoes,
+              perfect with yogurt or pickle.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹40</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/sahipaneer.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Sahi Paneer</h2>
+            <p class="card-description">
+              Soft paneer cubes cooked in a rich, creamy, and mildly spiced
+              tomato-based gravy.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹250</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/chapatigobi.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Chapati Gobhi</h2>
+            <p class="card-description">
+              Whole wheat chapati served with a flavorful stir-fried cauliflower
+              dish, seasoned with Indian spices.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹129</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/vegsoup.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Veg Soup</h2>
+            <p class="card-description">
+              A hearty and comforting soup made with a variety of fresh
+              vegetables and herbs.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹29</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/gobhichilli.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Gobhi Chilli</h2>
+            <p class="card-description">
+              Crispy cauliflower florets tossed in a spicy and tangy sauce with
+              bell peppers and onions.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹139</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/donuts.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Rajmah Chawal</h2>
+            <p class="card-description">
+              Red kidney beans cooked in a spiced tomato gravy served over
+              steamed basmati rice.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹50</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/paneerpakoda.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Paneer Pakoda</h2>
+            <p class="card-description">
+              Paneer cubes coated in a seasoned chickpea flour batter and
+              deep-fried until golden and crispy.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹18/Piece</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/dalchawal.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Dal Chawal</h2>
+            <p class="card-description">
+              Savory lentil curry served with fluffy steamed rice, a comforting
+              and nutritious meal.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹60</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/tawapulao.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Tawa Pulao</h2>
+            <p class="card-description">
+              Flavorful rice dish made with mixed vegetables and aromatic
+              spices, cooked on a flat griddle.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹100</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/butternaan.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Butter Naan</h2>
+            <p class="card-description">
+              Soft and fluffy naan bread brushed with melted butter, perfect for
+              scooping up your favorite curry.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹80</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="dishhnvm1">Popular Non-Veg Menu</h1>
+
+      <div class="card-row">
+        <div class="card">
+          <img src="./images/biryani.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Biryani</h2>
+            <p class="card-description">
+              A fragrant rice dish cooked with tender meat, aromatic spices, and
+              flavorful herbs.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹300</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/chillichicken.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Chilli Chicken</h2>
+            <p class="card-description">
+              Spicy and tangy chicken stir-fry with bell peppers and onions,
+              perfect with rice.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹429</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/chickenlegpiece.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Chicken Leg Piece</h2>
+            <p class="card-description">
+              Juicy, marinated chicken leg pieces grilled to perfection with
+              spices.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹59/Piece</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/eggcurry.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Egg Curry</h2>
+            <p class="card-description">
+              Hard-boiled eggs simmered in a rich, spiced tomato and onion
+              gravy.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹90</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/omelette.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Omelette</h2>
+            <p class="card-description">
+              Fluffy and savory, filled with fresh vegetables, cheese, and
+              herbs.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹175</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/eggfriedrice.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Egg Fried Rice</h2>
+            <p class="card-description">
+              Stir-fried rice with scrambled eggs, vegetables, and soy sauce for
+              a savory touch.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹120</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/chickenmasala.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Chicken Masala</h2>
+            <p class="card-description">
+              Succulent chicken pieces cooked in a spicy and creamy masala
+              sauce.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹400</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/fishcuryy.jpg" alt="Product Image" />
+          <div class="card-content">
+            <h2 class="card-title">Fish Fry</h2>
+            <p class="card-description">
+              Crispy fried fish fillets seasoned with a blend of spices and
+              herbs.
+            </p>
+            <div class="card-footer">
+              <span class="card-price">₹340</span>
+              <a href="#" class="card-link">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <h3>About Us</h3>
+          <h2>We've been making healthy food last for 10 years.</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            esse dolorem velit quas porro. Quod, deleniti, blanditiis aut
+            cupiditate esse earum molestias repellendus aperiam, a excepturi
+            incidunt numquam maxime natus!
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="./images/About.jpg" alt="food" />
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- Footer Starts Here -->
+    <div class="footer-container">
+      <div class="content">
+        <footer class="footer">
+          <div class="footer-column">
+            <h2>Made By: " Mr. Shubham Sharma"</h2>
+            <div class="link-container">
+              <a href="https://saispl.com/"
+                >Visit Site for Services: "SAISPL.COM"</a
+              >
+            </div>
+          </div>
+        </footer>
+        <div class="copyright">
+          <p>&copy; 2024 Shubham Sharma. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Ends Here -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js file -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
