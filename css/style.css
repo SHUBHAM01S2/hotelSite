@@ -61,7 +61,6 @@ html {
   #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("/images/About.jpg");
-    height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
