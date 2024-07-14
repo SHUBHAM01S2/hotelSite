@@ -63,6 +63,7 @@ html {
       url("/images/About.jpg");
     background-size: cover;
     background-position: center;
+    height:150vh;
     background-attachment: fixed;
   }
   .navbar-links a {
