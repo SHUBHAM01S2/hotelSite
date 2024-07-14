@@ -139,7 +139,7 @@ section {
   font-weight: bolder;
   font-weight: bold;
 }
-.home .home-slider .slide .content h1 {
+.home .home-slider .slide .content h2 {
   color: white;
   font-size: 55px;
   margin: 0;
@@ -190,7 +190,7 @@ a {
     font-size: 28px;
     font-weight: bolder;
   }
-  .home .home-slider .slide .content h4 {
+  .home .home-slider .slide .content h2 {
     color: black;
     font-size: 58px;
     margin: 0;
@@ -231,7 +231,7 @@ a {
     font-size: 22px;
     font-weight: bolder;
   }
-  .home .home-slider .slide .content h4 {
+  .home .home-slider .slide .content h2 {
     color: black;
     font-size: 40px;
     margin: 0;
@@ -271,7 +271,7 @@ a {
     font-size: 18px;
     font-weight: bolder;
   }
-  .home .home-slider .slide .content h4 {
+  .home .home-slider .slide .content h2 {
     color: black;
     font-size: 30px;
     margin: 0;
@@ -318,7 +318,7 @@ a {
     font-weight: bolder;
     text-align: center;
   }
-  .home .home-slider .slide .content h4 {
+  .home .home-slider .slide .content h2 {
     color: black;
     font-size: 30px;
     margin: 5px 0;
@@ -362,7 +362,7 @@ a {
     font-size: 25px;
     font-weight: bolder;
   }
-  .home .home-slider .slide .content h4 {
+  .home .home-slider .slide .content h2 {
     color: black;
     font-size: 23px;
     margin: 5px 0;
@@ -814,7 +814,7 @@ a {
   color: #555;
 }
 
-.about-text h3 {
+.about-text h1 {
   font-size: 4rem;
 }
 
