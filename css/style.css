@@ -63,7 +63,7 @@ html {
       url("/images/About.jpg");
     background-size: cover;
     background-position: center;
-    height:120vh;
+    height: 120vh;
     background-attachment: fixed;
   }
   .navbar-links a {
@@ -140,7 +140,7 @@ section {
   font-weight: bold;
 }
 .home .home-slider .slide .content h2 {
-  color: white;
+  color: white !important;
   font-size: 55px;
   margin: 0;
   font-weight: bolder;
